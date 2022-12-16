@@ -5,26 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="#">WebStudio</a>
+      <a class="logo" href="#"><span class="half-logo">Web</span>Studio</a>
       <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a class="navigation" href="#">Agencja</a></li>
+          <li><a class="navigation" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="navigation" href="#">Kontakt</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="contact" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a class="contact" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
     <main>
       <section>
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <button class="order-btn" type="button">Zamów usługę</button>
       </section>
       <section>
         <ul>
@@ -98,8 +109,9 @@
                 width="270"
                 height="260"
               />
-              <figcaption>Doe Product Designer</figcaption>
+              <figcaption>John Doe</figcaption>
             </figure>
+            <p class="team-card">Product Designer</p>
           </li>
           <li>
             <figure>
@@ -109,8 +121,9 @@
                 width="270"
                 height="260"
               />
-              <figcaption>Doe Frontend Developer</figcaption>
+              <figcaption>John Doe</figcaption>
             </figure>
+            <p class="team-card">Frontend Developer</p>
           </li>
           <li>
             <figure>
@@ -120,8 +133,9 @@
                 width="270"
                 height="260"
               />
-              <figcaption>Doe Marketing</figcaption>
+              <figcaption>John Doe</figcaption>
             </figure>
+            <p class="team-card">Marketing</p>
           </li>
           <li>
             <figure>
@@ -131,23 +145,33 @@
                 width="270"
                 height="260"
               />
-              <figcaption>Doe UI Designer</figcaption>
+              <figcaption>John Doe</figcaption>
             </figure>
+            <p class="team-card">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="#">WebStudio</a>
+      <a class="logo" href="#"><span class="half-logo">Web</span>Studio</a>
       <address>
         <ul>
           <li>
-            <a href="https://www.google.co.uk/maps" target="_blank"
+            <a
+              class="contact"
+              href="https://www.google.co.uk/maps"
+              target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="contact" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>
